@@ -35,15 +35,22 @@ while(x<=5){
     cout<<endl;
 }
 
-logika not
+Logika not
 #include <iostream>
 using namespace std;
 
 int main(){
-    float nilB,nilLM,rerata;
+    float nilB,nilM,rerata;
     string status;
 
-    
+    cout<<"masukkan nilai matematika =";
+    cin>>nilM;
+    cout<<"masukkan nilai bahasa inggris =";
+    cin>>nilB;
+
+    rerata = (nilB+nilM)/2;
+
+
 }
 
 
